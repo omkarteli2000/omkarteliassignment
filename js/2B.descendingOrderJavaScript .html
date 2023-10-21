@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>descendingOrder</title>
+</head>
+<body>
+    <h1>descendingOrderSort</h1>
+    <script>
+        function descendingOrderSort(arr) {
+            arr.sort(function(a, b) {
+                return b - a; // Compare in descending order
+            });
+        }
+
+    // Example usage:
+        const numbers = [10, 5, 8, 1, 3, 7];
+        descendingOrderSort(numbers);
+        console.log("Sorted Array in Descending Order: " + numbers);
+
+    </script>
+</body>
+</html>
